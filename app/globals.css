@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: 200, 50%, 67%; /* HSL(200, 50%, 75%) - darker pastel blue */
+    --foreground: 210, 50%, 100%; /* HSL(210, 50%, 90%) - complementing lighter shade */
+  }
+}
+
+
